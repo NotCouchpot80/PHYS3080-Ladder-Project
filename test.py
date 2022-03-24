@@ -13,4 +13,4 @@ with open('/Users/calinperez/Desktop/PHYS3080/Untitled/U07/xrfdata.txt', 'r') as
     xray = f.read()
     #print(tabulate(xray, headers=['x', 'y', 'z']))
     print(xray)
-    #matplotlib.pyplot.scatter(xray)
+    matplotlib.pyplot.scatter(xray)
